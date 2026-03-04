@@ -54,3 +54,11 @@ for auto in autok:
     if auto.gyartasi_ev == min(gyartasi_evek):
         print(f"A legidősebb autó adatai: {auto} ____ {2026 - auto.gyartasi_ev} éves")
         print(f"A legidősebb autó: {auto.marka} {auto.tipus}")
+
+
+auto6 = Auto("BMW", "320d", 2019, 6.5)
+print(auto6)
+auto6.utazik(200)
+print(auto6)
+auto6.tankol(10)
+print(auto6)
